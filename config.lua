@@ -3,7 +3,7 @@ Config = {
     --------------------POLICIA--------------------
     ['POLICIA MILITAR'] = {
         permission = 'perm.pm', -- PERMISAO DE TODOS OS MEMBROS QUE VAO SER NOTIFICADO
-        coords = vec3(-2042.76,-476.53,12.33), -- COORDENADAS DO LOCAL DO BLIP
+        coords = vec3(-2029.26,-448.94,12.18), -- COORDENADAS DO LOCAL DO BLIP
         buttons = {
              ['Chamar'] = ' está aguardando atendimento na recepção!',
             ['Recrutamento'] = ' deseja ser recrutado.',

@@ -19,7 +19,7 @@ src.useButton = function(name, bottom)
                 local nplayer = vRP.getUserSource(parseInt(v))
                 if nplayer then
                     onlinePlayers = onlinePlayers + 1
-                    TriggerClientEvent('Notify', nplayer, 'importante',"O "..identity.nome.." "..identity.sobrenome..info['buttons'][bottom], 5000)
+                    TriggerClientEvent('Notify', nplayer, 'importante',"O "..identity.nome.." "..identity.sobrenome..info['buttons'][bottom], 20000)
                 end
             end
             if onlinePlayers == 0 then
